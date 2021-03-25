@@ -3,12 +3,12 @@
   <head>
     <title>Campus Map</title>
     <meta charset="UTF-8">
-  </head>
+    </head>
   <body>
           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
       <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
- 
-      </head>
+
+      <html>
     <body>
 <div id="mapid" style="width: 100%; height: 700px;"></div>
 <script>
@@ -32,15 +32,15 @@
 	var sTheatre = L.marker([51.130424,-2.732845]).addTo(mymap);
 	var sNursery = L.marker([51.128936,-2.732163]).addTo(mymap);
 	//tor.bindPopup("<b>Glastonbury Tor</b>").openPopup();
-	cBlock.bindPopup("<br /><b>C Block").openPopup();
+	cBlock.bindPopup("<img style='width:250px' src='cBlock2.jpg '/><br /><b>C Block").openPopup();
 	mBlock.bindPopup("<img style='width:250px' src='mBlock.jpg'/><b>M Block").openPopup();
 	jBlock.bindPopup("<b>J Block").openPopup();
 	eBlock.bindPopup("<b>E Block").openPopup();
 	sPool.bindPopup("<img style='width:250px' src='sPool.jpg'/><b>Swimming Pool").openPopup();
-	sTheatre.bindPopup("<img style='width:250px' src='sTheatre.jpg'/><b>Strode Theatre").openPopup();
-	sNursery.bindPopup("<img style='width:250px' src='sNursery.jfif'/><b>Strode Nursery").openPopup();
+	sTheatre.bindPopup("<img style='width:250px' src='sTheatre.jpg'/><br><b> Strode Theatre</b></br>").openPopup();
+	sNursery.bindPopup("<img style='width:250px' src='sNursery.jfif'/><br><b> Strode Nursery</br></b>").openPopup();
 </script>
-    <p>Strode College Campus Map</p>
-    <h1>  </h1>
-  </body>
-  </html>
+    <h>Strode College </h>
+    <p> Campus Map </p>
+    </body>
+</html>
